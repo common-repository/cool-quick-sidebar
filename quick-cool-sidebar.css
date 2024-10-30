@@ -1,0 +1,39 @@
+.riquickContact {
+    position: fixed;
+    right: -220px;
+    z-index: 9;
+    background: #fff;
+    top: 150px;  padding: 10px;
+	-webkit-transition: all 1s ease;
+	  -moz-transition: all 1s ease;
+	  -o-transition: all 1s ease;
+	  -ms-transition: all 1s ease;
+	  transition: all 1s ease;
+}
+.riquickContact.slideleft{
+	right:0;
+}
+span.riqcl {
+    width: 40px;
+    float: left;
+    height: 200px;
+    position: relative;
+}
+span.riqcl h2 {
+        transform: rotate(270deg);
+    transform-origin: 140px 150px 0;
+    width: 277px;
+    display: block;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: right;
+    padding: 5px 10px;
+}
+.riqcr {
+    float: left;
+    width: 200px;
+}
+.riquickContact p{
+	margin:0;
+}
